@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "/bootstrap.min.css">
+        <link rel = "stylesheet" href = "/aboutUs.css">
+       
+    </head>
+    <body>
+
+        <div class = "container">
+            <div class = "jumbotron">
+              <h2> <%=heading%> </h2>
+              <p><%=message%></p>
+            <form action="/comedianForm">
+                <button type = "submit" class = "btn btn-danger">Upload another video!</button>
+            </form>
+            <form action = "/logout" methood = "get"> 
+            <button class = "btn btn-success" type = "submit">
+                Logout!
+            </button>
+            </form>
+            </div>
+            </div>
+    </body>
+</html>

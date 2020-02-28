@@ -1,0 +1,64 @@
+<!--
+Author: Colorlib
+Author URL: https://colorlib.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignUp Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="comedianSignup.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<body>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<div class = "row">
+			<div class = "col-xs-6">
+		<h1>Hey humour , Lets test you!!</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="/comedian/dataUploaded" method="post">
+					<input class="text" type="text" name="comedian" placeholder="Comedian Name" required="" value = "<%=username%>" readonly>
+					<input class="text email" type="text" name="title" placeholder="Title of test video" required="">
+					<input class="text" type="text" name="link" placeholder="Embedded youtube link" required="">
+					<input type="submit" value="SUBMIT">
+				</form>
+				<p>Done Uploading?? <a href="/logout">LOGOUT</a></p>
+			</div>
+		</div>
+		</div>
+		<div class = "col-xs-6">
+			<select class = "main-agileinfo">
+				<option>1</option>
+				<option>2</option>
+			</select>
+		</div>
+		</div>
+		<!-- copyright -->
+		
+		<!-- //copyright -->
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
+</html>
